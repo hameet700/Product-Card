@@ -1,0 +1,35 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Handlee', cursive;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.card{
+    padding:10px 50px;
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-column-gap:50px;
+    justify-content: center;
+    
+} 
+.product{
+    display: flex;
+    flex-flow: column;
+    padding:20px 0px 20px 2px ;
+    box-shadow:10px 10px 10px lightgray;
+}
+.name{
+    font-size:15px ;
+   
+}
+.name a{
+    color: black;
+    cursor: pointer;
+}
